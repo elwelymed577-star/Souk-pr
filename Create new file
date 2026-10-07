@@ -1,1 +1,0 @@
-let c=0;document.querySelectorAll('.card button').forEach(b=>{b.addEventListener('click',()=>{c++;document.querySelector('.cart').textContent=`السلة (${c})`;b.textContent='تم ✓';setTimeout(()=>b.textContent='أضف للسلة',1000)})});
